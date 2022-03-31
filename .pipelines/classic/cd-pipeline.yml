@@ -4,8 +4,6 @@ pr: none
 
 variables:
 - template: variables/pipeline-vars.yml
-
-variables:
 - name: devEnvironment
   value: dev
 # TODO: provide an email address for the ExampleWorkflow to an send mail to
