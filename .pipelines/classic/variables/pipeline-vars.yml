@@ -1,0 +1,26 @@
+# IaC variables
+
+variables:
+
+  projectName: 'FPALAPOC'
+  suffix: 'devw'
+
+  # TODO: Fill in with the name of your Azure service connection
+  devServiceConnection: 'logicappsstandard-rg-ae-poc'
+
+  # Resource Group
+  resourceGroupLocation: 'Australia East'
+  resourceGroupName: 'logicappsstandard-rg-ae-poc'
+
+  # Storage
+  storageName: 'safpalogicapp'
+  appServicePlanName: 'ASP-FPALAPOC'
+
+  #  Logic App
+  logicAppName: 'fpa-logicapp-standard-poc'
+
+  # API Connections
+  officeConnectionName: 'la-ae-$(projectName)-connection-office365'
+
+  # Project artifacts
+  logicAppCIArtifactName: 'logicapp_publish_artifact'
